@@ -1,10 +1,16 @@
 <?php
 /*
-Plugin Name: Gravity Forms - Disable Submit
-Description: Disable the submit button on a form once pressed to avoid duplicate submissions.
-Version: 2.0
-Author: Lee Peterson
-Author URI: http://www.rawlemurdy.com
+ * Plugin Name:       Gravity Forms - Disable Submit
+ * Plugin URI:        https://github.com/leepeterson/gravity-forms-disable-submit/
+ * Description:       Disable the submit button on a form once pressed to avoid duplicate submissions.
+ * Version:           2.0
+ * Author:            Lee Peterson
+ * Author URI:        http://www.rawlemurdy.com
+ * License:           GNU General Public License v2
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       gf-disble-submit
+ * GitHub Plugin URI: https://github.com/leepeterson/gravity-forms-disable-submit/
+ * GitHub Branch:     master
 */
 add_action("wp_enqueue_scripts", function(){
 	wp_register_script(
