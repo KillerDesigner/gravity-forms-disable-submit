@@ -9,8 +9,10 @@
  * License:           GNU General Public License v2
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       gf-disble-submit
+ * Domain Path:       /languages
  * GitHub Plugin URI: https://github.com/leepeterson/gravity-forms-disable-submit/
  * GitHub Branch:     master
+ * GitHub Languages:  https://github.com/afragen/github-updater-translations
 */
 add_action("wp_enqueue_scripts", function(){
 	wp_register_script(
